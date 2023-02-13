@@ -4,6 +4,7 @@ function add(nums){
                 sum+=nums[i];
             };
             console.log('The sum of the numbers is'+sum);
+            return sum;
         };
 function multiply(nums){
      let product=1;
@@ -11,4 +12,5 @@ function multiply(nums){
            product*=nums[i];
             };
     console.log('The product of the numbers is'+product);
+            return product;
 };
